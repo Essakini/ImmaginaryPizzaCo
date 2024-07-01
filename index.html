@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Imaginary Pizza Co.</title>
+    <link rel="stylesheet" href="styles2.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="img/pizza_logo.png" alt="The Imaginary Pizza Co. Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- <section id="about" style="display: flex; align-items: center; justify-content: center;">
+        <img src="img/pizza_name.png" alt="The Imaginary Pizza Co. Logo" style="margin-right: 20px;">
+        <div>
+            <h1>Welcome to The Imaginary Pizza Co.</h1>
+            <p>Your favorite place for delicious and imaginative pizzas!</p>
+
+        </div>
+    </section> -->
+
+    <section id="about">
+        <img src="img/pizza_name.png" alt="The Imaginary Pizza Co. Logo">
+        <div>
+            <h1>Welcome to The Imaginary Pizza Co.</h1>
+            <p>Your favorite place for delicious and imaginative pizzas!</p>
+        </div>
+    </section>
+    
+     <section id="gallery">
+        <h2>Gallery</h2>
+        <div class="gallery-container">
+            <div class="gallery-slide" id="gallerySlide">
+                <!-- Images will be dynamically inserted here -->
+            </div>
+            <button class="prev" onclick="plusSlides(-1)">&#10094;</button>
+            <button class="next" onclick="plusSlides(1)">&#10095;</button>
+        </div>
+    </section>
+
+    <section id="menu">
+        <h2>Menu</h2>
+        <div class="menu-container">
+            <div class="menu-item">
+                <img src="pizza1.jpg" alt="Margherita">
+                <p>Margherita</p>
+            </div>
+            <div class="menu-item">
+                <img src="pizza2.jpg" alt="Pepperoni">
+                <p>Pepperoni</p>
+            </div>
+            <div class="menu-item">
+                <img src="pizza3.jpg" alt="BBQ Chicken">
+                <p>BBQ Chicken</p>
+            </div>
+            <div class="menu-item">
+                <img src="pizza4.jpg" alt="Veggie Delight">
+                <p>Veggie Delight</p>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Email: contact@imaginarypizzaco.com</p>
+        <p>Phone: 123-456-7890</p>
+        <p>Address: 123 Pizza Street, Food City</p>
+        <div id="map"></div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
