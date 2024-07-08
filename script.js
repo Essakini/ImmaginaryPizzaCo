@@ -41,7 +41,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
 // Smooth scrolling for anchor links in navigation
 document.querySelectorAll('nav a').forEach(anchor => {
-    console.log('Slides:', slide); 
     anchor.addEventListener('click', function(e) {
         e.preventDefault();
         const target = document.querySelector(this.getAttribute('href'));
